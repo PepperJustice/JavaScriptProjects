@@ -1,1 +1,1 @@
-# This is a disply of the JavaScript Projects I have created
+# This is a display of the JavaScript Projects I have created
