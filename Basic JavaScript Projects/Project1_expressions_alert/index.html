@@ -5,9 +5,14 @@
 		<meta charset =“utf-8">
         <script src="JS/main.js"></script>
 	</head>
+
 	<body>
+		<button onclick="displayDate()">The time is?</button>
     <script>
-       
+       function displayDate() {
+		   document.getElementById("demo").innerHTML = Date();
+	   }
     </script>
+	<p id="demo"></p>
 	</body>
 </html>
