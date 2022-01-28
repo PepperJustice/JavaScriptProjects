@@ -8,3 +8,16 @@ function myFunction() {
     sentence += "a lot from the book!";//second part
     document.getElementById("concatenate").innerHTML = sentence;//will go together once clicked on and display both together
 }
+
+function ShowMessage(firstName, lastName) {
+    alert("Hello " + firstName + " " + lastName);
+}
+
+ShowMessage("Spongebob", "Squarepants"); 
+; 
+  
+function changeColor(newColor) {
+    var elem = document.getElementById('para');
+    elem.style.color = newColor;
+  }
+  
