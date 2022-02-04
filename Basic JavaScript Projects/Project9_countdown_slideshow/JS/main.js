@@ -17,12 +17,12 @@ function countdown() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// NEXT/PREV CONTROLS
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// THUMBNAIL IMAGE CONTROLS
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
